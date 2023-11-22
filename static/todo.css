@@ -41,8 +41,27 @@
     border-radius: 0;
 }
 .posts{
-    width: 100%;
+    width: 101%;
+    height:500px;
     margin-top: 30px;
+    overflow: auto;
+}
+.posts::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+}
+
+.posts::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the color of the track */
+    border-radius: 6px;
+}
+
+.posts::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the thumb */
+    border-radius: 6px; /* Set the border-radius of the thumb */
+}
+
+.posts::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the color of the thumb on hover */
 }
 .todoname_, .tododate_{
     width: 100%;

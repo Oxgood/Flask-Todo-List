@@ -21,8 +21,8 @@
             <div class="posts">
                 {% for list_ in lists %}
                     <form method="POST" action="" class="todo_grid">
-                        <div class='todoname_'>{{ list_.todoName }}</div>
-                        <div class='tododate_'>{{ list_.todoDate}}</div>
+                        <div class='todoname_'>{{ list_.todo_name }}</div>
+                        <div class='tododate_'>{{ list_.todo_date}}</div>
                         <input type="hidden" name="todo_index" value="{{ loop.index0 }}">
                         <button type="submit" class="delete-btn">Delete</button>
                     </form>
