@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.main{
+    width:70%;
+    height: 80%;
+    background: white;
+    padding: 50px;
+}
+.todo_grid{
+    margin-top: 30px;
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(2, 2fr) 1fr;
+    grid-column-gap: 10px;
+    align-items: center;
+    background: #fcfcfc;
+}
+.todoname, .tododate, .todobtn{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.todobtn{
+    background-color: green;
+    color: white;
+    border-radius: 0;
+}
+.posts{
+    width: 100%;
+    margin-top: 30px;
+}
+.todoname_, .tododate_{
+    width: 100%;
+    font-size: 24px;
+    padding: 5px;
+}
+.delete-btn{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
